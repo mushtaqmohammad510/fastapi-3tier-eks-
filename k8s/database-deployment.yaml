@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: database
-        image: <your-ecr-repo>/database:latest
+        image: 692859947295.dkr.ecr.us-east-1.amazonaws.com/mushtaq/myapp:v3
         ports:
         - containerPort: 5432
